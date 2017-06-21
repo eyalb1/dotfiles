@@ -467,3 +467,4 @@ endif
 "highlight DiffChange cterm=none ctermfg=fg ctermbg=Blue gui=none guifg=fg guibg=Blue
 "highlight DiffText cterm=none ctermfg=bg ctermbg=White gui=none guifg=bg guibg=White
 command W w !sudo tee % > /dev/null
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
